@@ -1,4 +1,4 @@
-require 'securerandom'
+require 'SecureRandom'
 
 class Person
   attr_accessor :name, :age, :id
@@ -11,12 +11,11 @@ class Person
   end
 
   def can_use_services?
-    return false unless of_age? || @parent_permission == true
+    of_age? || @parent_permission == true
   end
 
   private
-
   def of_age?
-    return false unless @age >= 18
+    @age >= 18
   end
 end
