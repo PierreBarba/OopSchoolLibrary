@@ -2,7 +2,6 @@ require 'securerandom'
 require_relative 'nameable'
 
 class Person < Nameable
-
   attr_accessor :name, :age
   attr_reader :id, :rentals
 
@@ -18,7 +17,7 @@ class Person < Nameable
   def correct_name
     @name
   end
-  
+
   def can_use_services?
     of_age? || @parent_permission == true
   end
