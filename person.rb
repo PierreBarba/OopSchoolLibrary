@@ -1,6 +1,3 @@
-require 'securerandom'
-require_relative 'nameable'
-
 class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id, :rentals
@@ -20,6 +17,11 @@ class Person < Nameable
 
   def can_use_services?
     of_age? || @parent_permission == true
+  end
+
+  def add_rentals(rental)
+    rentals.push(rental)
+    rental.person = self
   end
 
   private
