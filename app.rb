@@ -96,9 +96,9 @@ class App
 
     case option
     when 1
-        attach_student
+      attach_student
     when 2
-        attach_teacher
+      attach_teacher
     end
   end
 
