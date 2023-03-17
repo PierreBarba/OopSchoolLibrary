@@ -28,7 +28,7 @@ class App
   def rentals_list
     list = ''
     @rentals.each_with_index do |rental, i|
-      list << "\n[#{i + 1}]. date:#{rental.date} book:#{rental.book.title}  owner: #{rental.person.name}"
+      list << "\n[#{i + 1}]. date:#{rental.date} book:#{rental.book.title} owner: #{rental.person.name}"
     end
     list << "\n\n"
   end
@@ -122,7 +122,7 @@ class App
     print 'Input user id: '
     id = gets.chomp
     person = @users.find { |per| per.id == id }
-    person.nil? ? "There isn't a person with that id\n" : person.rental_list
+    person.nil? ? "no valid id\n" : person.rental_list
   end
 
   def get_option_selected(first, last)
