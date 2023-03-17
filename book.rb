@@ -10,8 +10,13 @@ class Book
     @rentals = []
   end
 
-  def add_rentals(rental)
-    rentals.push(rental)
-    rental.book = self
+  def add_rental(rental)
+    @rentals.push(rental) unless @rentals.include?(rental)
+  end
+
+  def rental_list
+    list = ''
+    @rentals.each { |rental| list << "(#{rental.date} | #{rental.book.title} | #{rental.person.name})" }
+    list
   end
 end
