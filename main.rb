@@ -26,8 +26,6 @@ end
     get_option_selected(1, 7)
   end
 
-
-  
     def wait_user
     puts 'Press any key to continue...'
     gets.chomp
