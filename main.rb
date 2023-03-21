@@ -10,6 +10,7 @@ def main
   app = App.new
   app.start
   puts 'Thanks for using this app!'
+  app.save_data
 end
 
 def selected_menu_option
