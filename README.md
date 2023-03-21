@@ -105,6 +105,11 @@ Install
 
 - LinkedIn: [Pierre Barba](https://www.linkedin.com/in/jean-pierre-barba/)
 
+👤 *Ivan Martinez*
+
+- LinkedIn: [Ivan Martinez](https://github.com/ivanmvh/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
