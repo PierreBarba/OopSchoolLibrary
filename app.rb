@@ -3,13 +3,17 @@ require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
 require_relative 'person'
+require_relative 'modules'
 
 class App
   def initialize
     @books = []
     @users = []
     @rentals = []
+    load_data
   end
+
+  include ExtraMethods
 
   def books_list
     list = ''
@@ -33,10 +37,15 @@ class App
     list << "\n\n"
   end
 
+  def load_data
+    load_books
+    load_users
+    load_rentals
+  end
+
   def start
     loop do
       option = selected_menu_option
-
       case option
       when 1
         puts books_list
@@ -53,7 +62,6 @@ class App
       else
         break
       end
-
       wait_user
     end
   end
@@ -64,7 +72,6 @@ class App
     title = gets.chomp
     print 'Enter Author: '
     author = gets.chomp
-
     book = Book.new(title, author)
     @books.push(book)
     puts "\nBook created successfully.\n"
