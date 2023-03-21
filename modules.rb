@@ -12,11 +12,13 @@ module ExtraMethods
 
   def load_books()
     return unless File.exist?('data/books.json') && File.size?('data/books.json')
+
     JSON.parse(File.read('data/books.json')).each { |book| @books.push(Book.new(book['title'], book['author'])) }
   end
 
   def load_users
     return unless File.exist?('data/users.json') && File.size?('data/users.json')
+
     JSON.parse(File.read('data/users.json')).each do |person|
       if person['class'] == 'Student'
         @users.push(Student.new(person['age'], person['name'], person['id'],
