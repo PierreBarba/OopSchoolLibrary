@@ -1,4 +1,5 @@
-require_relative '../base_decorator'describe BaseDecorator do
+require_relative '../base_decorator'
+describe BaseDecorator do
   context 'When testing BaseDecorator Class' do
     it 'should create a BaseDecorator object' do
       decorator_base = BaseDecorator.new('yoda')
