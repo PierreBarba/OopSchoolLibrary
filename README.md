@@ -91,10 +91,11 @@ To get a local copy up and running, follow these steps.
 
 ## usage
 
+
 - To run the project, execute the following command in irb:
 
   > name = Person.new(age)
-  
+
   > name = Student.new(age, classroom)
 
  ## Setup
