@@ -7,3 +7,4 @@ RSpec.describe Nameable do
       end
     end
   end
+  
