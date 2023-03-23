@@ -122,7 +122,8 @@ To get a local copy up and running, follow these steps.
 
 👤 *Ivan Martinez*
 
-- LinkedIn: [Ivan Martinez](https://github.com/ivanmvh)
+- LinkedIn: [Ivan Martinez](https://github.com/ivanmvh/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
