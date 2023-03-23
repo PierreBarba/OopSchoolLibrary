@@ -22,9 +22,12 @@ This repository includes files with RUBY that can be used to recreate a database
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+  - [Setup](#setup)
   - [Usage](#usage)
-  - [👥 Authors](#authors)
+  - [Install](#install)
+  - [Run test](#runtest)
+  - [Deployment](#Deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -82,19 +85,40 @@ To get a local copy up and running, follow these steps.
 ## Prerequisites
  You’ll need to have Ruby on your machine.
 
- ### Setup
+ - Ruby
+ - GIT & GITHUB
+ - Any Code Editor (VS Code, Brackets, etc)
+
+## usage
 
 
+- To run the project, execute the following command in irb:
 
-- To clone this repository to your desired folder:
+  > name = Person.new(age)
 
-> You can download the Zip file from the GitHub repository, or clone the repository with:
-- git clone https://github.com/PierreBarba/OopSchoolLibrary
+  > name = Student.new(age, classroom)
 
-Access the cloned directory with:
-cd OopSchoolLibrary
-Open it with your favorite code editor or with the live server
-Install
+ ## Setup
+
+- Clone the project.
+
+  > git clone https://github.com/PierreBarba/OopSchoolLibrary
+
+- Go to the project directory.
+
+  > cd oop-school-library
+
+- In the project directory, you can run:
+
+  > ruby main.rb
+
+- Runs the app in the terminal.
+
+## Run-test
+
+- To run the test use the following command
+
+  > rspec src/spec
 
 
 <!-- AUTHORS -->
@@ -138,7 +162,8 @@ If you like this project feel free to fork it and give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for seting me up on this project.
+- My Family.
+- Microverse Team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
