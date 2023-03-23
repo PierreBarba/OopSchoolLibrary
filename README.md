@@ -85,19 +85,31 @@ To get a local copy up and running, follow these steps.
 ## Prerequisites
  You’ll need to have Ruby on your machine.
 
- ### Setup
+ - Ruby
+ - GIT & GITHUB
+ - Any Code Editor (VS Code, Brackets, etc)
 
+ ## Setup
 
+- Clone the project.
 
-- To clone this repository to your desired folder:
+  > git clone https://github.com/PierreBarba/OopSchoolLibrary
 
-> You can download the Zip file from the GitHub repository, or clone the repository with:
-- git clone https://github.com/PierreBarba/OopSchoolLibrary
+- Go to the project directory.
 
-Access the cloned directory with:
-cd OopSchoolLibrary
-Open it with your favorite code editor or with the live server
-Install
+  > cd oop-school-library
+
+- In the project directory, you can run:
+
+  > ruby main.rb
+
+- Runs the app in the terminal.
+
+## Run-test
+
+- To run the test use the following command
+
+  > rspec src/spec
 
 
 <!-- AUTHORS -->
@@ -140,7 +152,8 @@ If you like this project feel free to fork it and give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for seting me up on this project.
+- My Family.
+- Microverse Team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
