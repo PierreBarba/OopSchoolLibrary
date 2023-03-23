@@ -22,9 +22,12 @@ This repository includes files with RUBY that can be used to recreate a database
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
+  - [Setup](#setup)
   - [Usage](#usage)
-  - [👥 Authors](#authors)
+  - [Install](#install)
+  - [Run test](#runtest)
+  - [Deployment](#Deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -104,6 +107,10 @@ Install
 👤 *Pierre Barba*
 
 - LinkedIn: [Pierre Barba](https://www.linkedin.com/in/jean-pierre-barba/)
+
+👤 *Ivan Martinez*
+
+- LinkedIn: [Ivan Martinez](https://github.com/ivanmvh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
